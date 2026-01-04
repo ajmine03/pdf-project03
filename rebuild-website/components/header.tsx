@@ -57,7 +57,7 @@ const toolCategories = [
 
 export function Header() {
   return (
-    <header className="border-b border-border bg-background/95 sticky top-0 z-50 backdrop-blur-md" role="banner">
+    <header className="border-b border-white/10 bg-background/60 sticky top-0 z-50 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60" role="banner">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2" aria-label="PDFJar home">
           <div className="bg-primary rounded-lg p-2">
