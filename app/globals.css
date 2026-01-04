@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -106,13 +107,9 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-
-  html {
+  /* html {
     font-family: 'Inter', system-ui, sans-serif;
-  }
+  } */
 
   body {
     @apply bg-background text-foreground antialiased;
@@ -123,7 +120,7 @@
   .shadow-card {
     box-shadow: var(--shadow-card);
   }
-  
+
   .shadow-card-hover {
     box-shadow: var(--shadow-card-hover);
   }
@@ -132,3 +129,4 @@
     animation-duration: 150ms;
   }
 }
+
